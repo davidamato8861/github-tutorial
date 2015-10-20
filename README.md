@@ -38,7 +38,25 @@ in order to sync changes you make in your coding platform.
 
 ---
 ## Repository Setup
+###Initializing Git:
+* When you first connect your remote to your local,you have to use `git init`.
+* Use this in the command line in order to initialize Git.
 
+###Add and Commit:
+* When you first create a file, you need to save the changes.
+* Then you need to type `git add`, the file name and `git commit -m`.
+* By doing this, your saving any changes you have made to a specific file.
+
+###First Github Repository:
+* Once you setup your Github account, you are asked to create your first repository.
+* This is a folder or directory that holds all things that your create on your coding program, inside of it.
+* You are allowed to create an infinite amount of repositories on your Github account!
+
+###Remote:
+* Remember your Github? This is what your remote is!
+* A remote is basically just the program that allows you to track changes that you have made, or commits, in a specific repository.
+* So when you first set this up, you can use `git remote add [shortname] [URL]`.
+* This adds a remote to your local, or your coding platform.
 
 
 ---
