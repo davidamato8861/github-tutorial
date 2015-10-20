@@ -61,3 +61,18 @@ in order to sync changes you make in your coding platform.
 
 ---
 ## Workflow & Commands
+###Status:
+*  Do this frequently in order to know what files are added to the stage or _ready to take a snapshot_.
+*  Use `git status` to view added files.
+
+###Adding files:
+* Add changed files to the stage by typing `git add File Name Goes Here`.
+* This sets up the file to be saved, or _having the picture taken_.
+
+###Commiting files:
+* This takes a picture or snapshot of the file
+* Use `git commit -m File Name (from stage) Goes Here`, to _take a picture_.
+
+###Pushing files:
+* This just _pushes_ all changes/commits you have made to your remote repository.
+* If you go on Github, you will see any commits you have made on your machine.
