@@ -76,3 +76,20 @@ in order to sync changes you make in your coding platform.
 ###_Pushing files:_
 * This just _pushes_ all changes/commits you have made to your remote repository.
 * If you go on Github, you will see any commits you have made on your machine.
+
+
+---
+## Collaboration:
+###_Forking & Cloning:_
+1. First, In order to fork, you must click on the fork on Github, which takes someone else's repository,
+and places it in your remote account (in this case Github)!
+2. After forking, go back to the repo page and clone the repo.
+3. Then, copy/paste the clone URL into your local coding platform.
+4. Thats all, just change the files in the repository that you cloned and push the commits/changes up to the original owner for approval.
+
+###_Pull & Pull Requests:_
+1. After pulling or pushing changes up to Github, you have to wait for the owner's approval.
+2. If accepted, then you can change code, or even give suggestions to the owner on what should be changed.
+3. Then, if the owner forks and clones your repo, then you can view and accept their changes.
+4. You can view their changes to your code by using the command `git pull`.
+5. Finally, just follow this process to collaborate easily. 
