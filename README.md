@@ -76,6 +76,15 @@ in order to sync changes you make in your coding platform.
 ###_Pushing files:_
 * This just _pushes_ all changes/commits you have made to your remote repository.
 * If you go on Github, you will see any commits you have made on your machine.
+     
+ This is what the process would look like:
+     ```
+     add File Name Here
+     git status
+     git commmit -m "Short Message"
+     git push
+     ```
+
 
 
 ---
