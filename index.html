@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub Tutorial by davidamato8861</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>GitHub Tutorial</h1>
+        <p>Learning Git is fun!</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/davidamato8861/github-tutorial" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/davidamato8861/github-tutorial/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/davidamato8861/github-tutorial/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by David Amato</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<h3>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Git:</em>
+</h3>
+
+<ul>
+<li>Git is <em>version control</em>, which means that Git controls and tracks changes of your code.</li>
+<li>Git also runs in the command line, easy for editing code.</li>
+<li>Use the command <code>git</code> <code>something</code> to tell Git what to do. </li>
+</ul>
+
+<h3>
+<a id="github" class="anchor" href="#github" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Github:</em>
+</h3>
+
+<ul>
+<li>Github also runs in the command line.</li>
+<li>Collaboration is a big part of Github, because people can make changes to someone else's project(s).</li>
+<li>Visit <code>github.com</code>, sign up, and start editing code.</li>
+</ul>
+
+<h3>
+<a id="difference" class="anchor" href="#difference" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Difference:</em>
+</h3>
+
+<ul>
+<li>Git is not on the cloud, meaning that you cannot save code with Git.</li>
+<li>You can only save code, on the cloud, with Github.<br>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h3>
+<a id="setting-up-your-github-account" class="anchor" href="#setting-up-your-github-account" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Setting up your Github account:</em>
+</h3>
+
+<ul>
+<li>First, you must type your remote host on Github.</li>
+<li>You have to type in your <code>username</code>, <code>email</code> and <code>password</code>to sign up.</li>
+</ul>
+
+<h3>
+<a id="ssh-key" class="anchor" href="#ssh-key" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>SSH Key:</em>
+</h3>
+
+<ul>
+<li>This key is found on your coding program/platform.</li>
+<li>You can use it to connect your <code>localhost</code> with <code>Github</code>.</li>
+<li>Just <code>Ctrl/Command-C</code> the SSH Key and <code>Ctrl/Command-V</code> it into your remote, 
+in order to sync changes you make in your coding platform.</li>
+</ul>
+
+<h3>
+<a id="git-config" class="anchor" href="#git-config" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Git Config:</em>
+</h3>
+
+<ul>
+<li>When you first initialize Git, it starts allowing you to use the command <code>git config</code>.</li>
+<li>This lets you setup your <code>user.name</code> and <code>user.email</code>, so that when you make changes to code, Git will know who made those changes. </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<h3>
+<a id="initializing-git" class="anchor" href="#initializing-git" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Initializing Git:</em>
+</h3>
+
+<ul>
+<li>When you first connect your remote to your local, you have to use <code>git init</code>.</li>
+<li>Use this in the command line in order to initialize Git.</li>
+</ul>
+
+<h3>
+<a id="add-and-commit" class="anchor" href="#add-and-commit" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Add and Commit:</em>
+</h3>
+
+<ul>
+<li>When you first create a file, you need to save the changes.</li>
+<li>Then you need to type <code>git add</code>, the file name and <code>git commit -m</code>.</li>
+<li>By doing this, your saving any changes you have made to a specific file.</li>
+</ul>
+
+<h3>
+<a id="first-github-repository" class="anchor" href="#first-github-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>First Github Repository:</em>
+</h3>
+
+<ul>
+<li>Once you setup your Github account, you are asked to create your first repository.</li>
+<li>This is a folder or directory that holds all things that your create on your coding program, inside of it.</li>
+<li>You are allowed to create an infinite amount of repositories on your Github account!</li>
+</ul>
+
+<h3>
+<a id="remote" class="anchor" href="#remote" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Remote:</em>
+</h3>
+
+<ul>
+<li>Remember your Github? This is what your remote is!</li>
+<li>A remote is basically just the program that allows you to track changes that you have made, or commits, in a specific repository.</li>
+<li>So when you first set this up, you can use <code>git remote add [shortname] [URL]</code>.</li>
+<li>This adds a remote to your local, or your coding platform.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<h3>
+<a id="status" class="anchor" href="#status" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Status:</em>
+</h3>
+
+<ul>
+<li> Do this frequently in order to know what files are added to the stage or <em>ready to take a snapshot</em>.</li>
+<li> Use <code>git status</code> to view added files.</li>
+</ul>
+
+<h3>
+<a id="adding-files" class="anchor" href="#adding-files" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Adding files:</em>
+</h3>
+
+<ul>
+<li>Add changed files to the stage by typing <code>git add File Name Goes Here</code>.</li>
+<li>This sets up the file to be saved, or <em>having the picture taken</em>.</li>
+</ul>
+
+<h3>
+<a id="commiting-files" class="anchor" href="#commiting-files" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Commiting files:</em>
+</h3>
+
+<ul>
+<li>This takes a picture or snapshot of the file</li>
+<li>Use <code>git commit -m File Name (from stage) Goes Here</code>, to <em>take a picture</em>.</li>
+</ul>
+
+<h3>
+<a id="pushing-files" class="anchor" href="#pushing-files" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Pushing files:</em>
+</h3>
+
+<ul>
+<li>This just <em>pushes</em> all changes/commits you have made to your remote repository.</li>
+<li>
+<p>If you go on Github, you will see any commits you have made on your machine.</p>
+
+<p>This is what the process would look like:</p>
+
+<pre><code>   add File Name Here
+   git status
+   git commmit -m "Short Message"
+   git push
+</code></pre>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaboration:</h2>
+
+<h3>
+<a id="forking--cloning" class="anchor" href="#forking--cloning" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Forking &amp; Cloning:</em>
+</h3>
+
+<ol>
+<li>First, In order to fork, you must click on the fork on Github, which takes someone else's repository,
+and places it in your remote account (in this case Github)!</li>
+<li>After forking, go back to the repo page and clone the repo.</li>
+<li>Then, copy/paste the clone URL into your local coding platform.</li>
+<li>Thats all, just change the files in the repository that you cloned and push the commits/changes up to the original owner for approval.</li>
+</ol>
+
+<h3>
+<a id="pull--pull-requests" class="anchor" href="#pull--pull-requests" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Pull &amp; Pull Requests:</em>
+</h3>
+
+<ol>
+<li>After pulling or pushing changes up to Github, you have to wait for the owner's approval.</li>
+<li>If accepted, then you can change code, or even give suggestions to the owner on what should be changed.</li>
+<li>Then, if the owner forks and clones your repo, then you can view and accept their changes.</li>
+<li>You can view their changes to your code by using the command <code>git pull</code>.</li>
+<li>Finally, just follow this process to collaborate easily. </li>
+</ol>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/davidamato8861">davidamato8861</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
